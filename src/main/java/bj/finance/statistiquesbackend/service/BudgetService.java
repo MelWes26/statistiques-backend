@@ -55,6 +55,9 @@ public class BudgetService {
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
         // Évite la division par zéro
+
+        //  tauxEngage = mtengae * 100  / mt_initialae
+
         BigDecimal tauxEngage = BigDecimal.ZERO;
         if (totalBudgetInitial.compareTo(BigDecimal.ZERO) > 0) {
             tauxEngage = totalEngageAE.divide(totalBudgetInitial, 4, BigDecimal.ROUND_HALF_UP).multiply(new BigDecimal(100));

@@ -12,5 +12,21 @@ public class SourceFinancement {
 
     @Column(nullable = false, length = 100)
     private String libSouFinan;
+
+    public Integer getCodeSouFinan() {
+        return codeSouFinan;
+    }
+
+    public void setCodeSouFinan(Integer codeSouFinan) {
+        this.codeSouFinan = codeSouFinan;
+    }
+
+    public String getLibSouFinan() {
+        return libSouFinan;
+    }
+
+    public void setLibSouFinan(String libSouFinan) {
+        this.libSouFinan = libSouFinan;
+    }
 }
 

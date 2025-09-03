@@ -19,4 +19,6 @@ public class DashboardDataDTO {
     private BigDecimal tauxEngage;
     private BigDecimal tauxOrdonnance;
     private List<Budget> budgets;
+
+
 }

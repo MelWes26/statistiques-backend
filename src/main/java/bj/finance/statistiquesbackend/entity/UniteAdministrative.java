@@ -14,4 +14,20 @@ public class UniteAdministrative {
 
     @Column(nullable = false, length = 100)
     private String libUniAdmi;
+
+    public Integer getCodeUniAdmi() {
+        return codeUniAdmi;
+    }
+
+    public void setCodeUniAdmi(Integer codeUniAdmi) {
+        this.codeUniAdmi = codeUniAdmi;
+    }
+
+    public String getLibUniAdmi() {
+        return libUniAdmi;
+    }
+
+    public void setLibUniAdmi(String libUniAdmi) {
+        this.libUniAdmi = libUniAdmi;
+    }
 }

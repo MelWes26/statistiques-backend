@@ -12,5 +12,21 @@ public class Bailleur {
 
     @Column(nullable = false, length = 100)
     private String libBailleur;
+
+    public Integer getCodeBailleur() {
+        return codeBailleur;
+    }
+
+    public void setCodeBailleur(Integer codeBailleur) {
+        this.codeBailleur = codeBailleur;
+    }
+
+    public String getLibBailleur() {
+        return libBailleur;
+    }
+
+    public void setLibBailleur(String libBailleur) {
+        this.libBailleur = libBailleur;
+    }
 }
 

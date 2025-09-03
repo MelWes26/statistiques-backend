@@ -17,6 +17,19 @@ public class Departement {
     @Column(nullable = false, length = 100)
     private String libDepa;
 
+    public Integer getCodeDepa() {
+        return codeDepa;
+    }
 
+    public void setCodeDepa(Integer codeDepa) {
+        this.codeDepa = codeDepa;
+    }
 
+    public String getLibDepa() {
+        return libDepa;
+    }
+
+    public void setLibDepa(String libDepa) {
+        this.libDepa = libDepa;
+    }
 }

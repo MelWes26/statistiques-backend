@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/budgets")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200") // This is the key fix
 public class BudgetController {
     private final BudgetService service;
 

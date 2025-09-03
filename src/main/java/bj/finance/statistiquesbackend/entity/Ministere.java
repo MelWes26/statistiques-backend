@@ -23,4 +23,44 @@ public class Ministere {
 
     private LocalDate dateDebutMini;
     private LocalDate dateFinMini;
+
+    public Integer getCodeMini() {
+        return codeMini;
+    }
+
+    public void setCodeMini(Integer codeMini) {
+        this.codeMini = codeMini;
+    }
+
+    public String getLibCourtMini() {
+        return libCourtMini;
+    }
+
+    public void setLibCourtMini(String libCourtMini) {
+        this.libCourtMini = libCourtMini;
+    }
+
+    public String getLibLongMini() {
+        return libLongMini;
+    }
+
+    public void setLibLongMini(String libLongMini) {
+        this.libLongMini = libLongMini;
+    }
+
+    public LocalDate getDateDebutMini() {
+        return dateDebutMini;
+    }
+
+    public void setDateDebutMini(LocalDate dateDebutMini) {
+        this.dateDebutMini = dateDebutMini;
+    }
+
+    public LocalDate getDateFinMini() {
+        return dateFinMini;
+    }
+
+    public void setDateFinMini(LocalDate dateFinMini) {
+        this.dateFinMini = dateFinMini;
+    }
 }

@@ -11,4 +11,20 @@ public class TypeBudget {
 
     @Column(nullable = false, length = 100)
     private String libTypeBudget;
+
+    public Integer getCodeTypeBudget() {
+        return codeTypeBudget;
+    }
+
+    public void setCodeTypeBudget(Integer codeTypeBudget) {
+        this.codeTypeBudget = codeTypeBudget;
+    }
+
+    public String getLibTypeBudget() {
+        return libTypeBudget;
+    }
+
+    public void setLibTypeBudget(String libTypeBudget) {
+        this.libTypeBudget = libTypeBudget;
+    }
 }

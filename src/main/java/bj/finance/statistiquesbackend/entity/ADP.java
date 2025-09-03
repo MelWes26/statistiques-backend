@@ -22,5 +22,37 @@ public class ADP {
     @OneToMany(mappedBy = "parent")
     @JsonIgnore
     private List<ADP> enfants;
+
+    public Integer getCodeADP() {
+        return codeADP;
+    }
+
+    public void setCodeADP(Integer codeADP) {
+        this.codeADP = codeADP;
+    }
+
+    public String getLibADP() {
+        return libADP;
+    }
+
+    public void setLibADP(String libADP) {
+        this.libADP = libADP;
+    }
+
+    public ADP getParent() {
+        return parent;
+    }
+
+    public void setParent(ADP parent) {
+        this.parent = parent;
+    }
+
+    public List<ADP> getEnfants() {
+        return enfants;
+    }
+
+    public void setEnfants(List<ADP> enfants) {
+        this.enfants = enfants;
+    }
 }
 

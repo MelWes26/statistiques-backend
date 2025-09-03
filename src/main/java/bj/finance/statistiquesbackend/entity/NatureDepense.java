@@ -12,5 +12,21 @@ public class NatureDepense {
 
     @Column(nullable = false, length = 100)
     private String libNatDep;
+
+    public Integer getCodeNatDep() {
+        return codeNatDep;
+    }
+
+    public void setCodeNatDep(Integer codeNatDep) {
+        this.codeNatDep = codeNatDep;
+    }
+
+    public String getLibNatDep() {
+        return libNatDep;
+    }
+
+    public void setLibNatDep(String libNatDep) {
+        this.libNatDep = libNatDep;
+    }
 }
 
